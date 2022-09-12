@@ -23,6 +23,8 @@ This module makes use of the output from other modules:
 
 ## Example usage
 
+[Refer test cases for more details](test/stages/stage2-cloud-operator.tf)
+
 ```hcl-terraform
 module "dev_cloud_operator" {
   source = "github.com/ibm-garage-cloud/terraform-ibm-cloud-operator?ref=v1.0.0"
