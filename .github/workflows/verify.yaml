@@ -18,7 +18,9 @@ jobs:
 
     strategy:
       matrix:
-        platform: [ocp4_vpc, ocp44_vpc]
+        testcase:
+          - ocp4_latest        
+    #    platform: [ocp4_vpc, ocp44_vpc]
     #      max-parallel: 1
       fail-fast: false
 
